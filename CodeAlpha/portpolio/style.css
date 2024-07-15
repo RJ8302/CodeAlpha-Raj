@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: rgb(3, 3, 39);
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(27, 27, 82);
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    list-style: none;
+    margin: 0 23px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover {
+    color: rgb(107, 107, 201);
+    font-size: 1.01rem;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+  .firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+  }
+  .firstSection > div {
+    width: 30%;
+  }
+  .leftSection {
+    font-size: 2.5rem;
+  }
+  .leftSection .buttons{
+    padding: 40px 0;
+  }
+  .leftSection .btn{
+    padding: 12px;
+    background: #1e2167; 
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .rightSection img {
+    width: 95%;
+  }
+  .purple {
+    color: rgb(152, 46, 152);
+  }
+  .text-gray {
+    color: gray;
+  }
+  #element {
+    color: rgb(152, 46, 152);
+  }
+  .secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+  .secondSection h1 {
+    font-size: 1.9rem;
+  }
+  .secondSection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 76px 0;
+    display: flex;
+  }
+  .secondSection .vertical {
+    height: 73px;
+    width: 1px;
+    background-color: white;
+    margin: 0 153px;
+  }
+  .image-top {
+    width: 40px;
+    position: relative;
+    top: -45px;
+    left: -14px;
+  }
+  .vertical-title {
+    position: relative;
+    top: 40px;
+    width: 150px;
+  }
+  .vertical-desc {
+    position: relative;
+    top: 52px;
+    color: gray;
+    width: 150px;
+    font-size: 9px;
+  }
+  main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 40px 84px;
+  }
+  footer{
+    background-color: #0e0e1a;
+    height: 233px;
+  }
+  .footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+  }
+  .footer > div {
+    width: 223px;
+  }
+  .footer-rights{
+    text-align: center;
+    padding: 12px 0;
+    color: gray;
+  }
